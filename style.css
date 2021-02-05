@@ -1,7 +1,24 @@
+/*
+filter: blur - (length);
+filter: brightness - (length or percent);
+filter: contrast - (length or percent);
+filter: grayscale - (length or percent);
+filter: hue-rotate - (angle);
+filter: drop-shadow - (box-shadow values);
+filter: invert - (length or percent);
+filter: opacity - (length or percent);
+filter: saturate - (length or percent);
+filter: sepia - (length or percent);
+*/
+
+
+
 .image-filter{
     width: 500px;
     height: auto;
     margin: 80px 0;
+    /* filter: sepia(50%); */
+    filter: drop-shadow(20px 20px 30px rgba(0,0,0,0.5));
 }
 
 figure{
